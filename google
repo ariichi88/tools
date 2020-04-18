@@ -1,0 +1,7 @@
+#! /usr/bin/env bash
+
+if [ -n $# ]; then
+    opt='/search?q='"$*"
+fi
+
+w3m www.google.co.jp$opt

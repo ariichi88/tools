@@ -5,7 +5,7 @@ IFS='
 '
 
 if [ -z $1 ]; then
-    echo 変更したい名前を指定してください
+    echo 変更したい名前を引数に指定してください
     exit 1
 fi
 
@@ -13,7 +13,7 @@ count=1
 
 for file in $(ls | sort -n)
 do
-    echo $file $1-$(printf %002d $count).${file##*.}
+    mv $file $1-$(printf %02d $count).${file##*.}
     count=$(($count+1))
 done
 
