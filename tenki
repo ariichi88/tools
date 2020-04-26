@@ -1,0 +1,10 @@
+#! /usr/bin/env bash
+
+if [ -n $# ]; then
+    loc=$1
+else
+    loc=hiroshima
+fi
+
+curl wttr.in/$loc?lang=ja
+
