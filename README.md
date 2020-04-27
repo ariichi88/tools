@@ -20,7 +20,7 @@ tenki<br>
 <br>
 curlを使って指定された場所の天気予報を表示するシェルスクリプト<br>
 <br>
-tenki tokyo<br>
+使用法<br>
 注　curlが要ります<br>
 　　デフォルトは広島です<br>
 
