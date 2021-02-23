@@ -35,3 +35,6 @@ pythonで作ったファイル名を「任意の名前」＋「連番」に変�
 
 例
 XXX.jpg　→　任意の名前-00.jpg
+
+### photo.py
+pythonで作ったDropboxのカメラアップロードからShotwellの監視するフォルダへのコピー＆名前変更コマンド
