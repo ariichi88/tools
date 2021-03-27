@@ -6,8 +6,8 @@ import sys
 import datetime
 import shutil
 
-FromDir = '/home/yuuichi/Dropbox/カメラアップロード/'
-ToDir = '/home/yuuichi/Dropbox/Photo/'
+FromDir = ''
+ToDir = ''
 
 
 def ChackAndMakeDir(date):
