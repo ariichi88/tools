@@ -38,3 +38,6 @@ XXX.jpg　→　任意の名前-00.jpg
 
 ### photo.py
 pythonで作ったDropboxのカメラアップロードからShotwellの監視するフォルダへのコピー＆名前変更コマンド
+
+### photo.go
+go言語で作ったファイルをshotwellの監視するフォルダへのファイルの移動＆名前の変更コマンド
